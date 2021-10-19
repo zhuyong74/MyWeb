@@ -1,5 +1,5 @@
 FROM ubuntu
 WORKDIR /app
 COPY myweb /app/myweb
-EXPOSE 8000
+EXPOSE 80
 ENTRYPOINT ["/app/myweb"]
